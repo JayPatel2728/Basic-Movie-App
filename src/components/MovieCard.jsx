@@ -1,7 +1,7 @@
 
-export default function MovieCard({ movie }){
+export default function MovieCard({ movie, handleChange }){
     return(
-        <div className='movie'>
+        <div className='movie' onClick={handleChange}>
           <div>
             <p>{movie.Year}</p>
           </div>
