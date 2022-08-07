@@ -6,7 +6,7 @@ import MoviePage from './components/MoviePage'
 import { nanoid } from "nanoid"
 
 function App() {
-  const API_URL = "http://www.omdbapi.com?apikey=b6003d8a"
+  const API_URL = "https://www.omdbapi.com?apikey=b6003d8a"
   const [movies, setMovies]= useState([])
   const [search, setSearch]= useState("")
   const [selectMovie, setSelectedMovie]= useState({})
